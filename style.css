@@ -1,12 +1,19 @@
 table{
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 2px solid honeydew;
     font-weight: bold;
 
 }
 td ,th{
-    border: 2px solid black;
+    border: 2px solid honeydew;
+    text-align: center;
 
+
+}
+.last{
+    background-color: rgb(224, 134, 16);
+    border:none;
+color: #000;
 
 }
 body{
@@ -14,24 +21,74 @@ body{
     width: 100%;
     position: relative;
 
-    background-image: url('https://i0.wp.com/www.wallpapersin4k.org/wp-content/uploads/2017/04/Full-HD-Car-Wallpapers-Download-23.jpg');
-    background-repeat: no-repeat;
-
+    background-image: url('http://www.uaepigeon.com/gallery/data/media/4/land-rover-range-rover-garage-hd-wallpaper.jpg');
+  background-size: cover;
 
 }
-.formDiv{
-    width: 20%;
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(224, 134, 16);
+    margin-bottom: 20px ;
+    position: relative;
+    opacity: .6;
+}
+header h2{
+
+    font-size: 50px;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: aliceblue;
+
+  transform: translateY(-50%);
+
+}
+main{
+    position: relative;
+}
+form{
     position: absolute;
-    left:10% ;
-    top: 100px;
+    left: 20px;
+    width: 20%;
+top: 100px;
+    background:rgb(219, 214, 214);
+    border-radius: 5px;
+
+
     
 }
-.tableDiv{
+
+
+input,select{
+    width: 90%;
+    height: 30px;
+    margin: 10px 10px;
+    border: 2px solid rgb(224, 134, 16);
+    border-radius: 10px;
+}
+#submit{
+    background:rgb(224, 134, 16) ;
+    font-size: 15px;
+
+}
+label,legend{
+    margin: 10px 10px;
+
+    font-weight: 550;
+    font-size: 20px;
+    color: rgb(224, 134, 16);
+}
+    
+
+table{
     width: 40%;
     position: absolute;
     left:50% ;
-    top: 100px;
-    background-color: white;
-    opacity:.5 ;
-
+    color: blanchedalmond;
+top: 100px;
+    background-color: black;
+    opacity:.6 ;
+margin: 50px 10px;
 }
