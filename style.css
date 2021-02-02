@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-weight: bold;
+
+}
+td ,th{
+    border: 2px solid black;
+
+
+}
+body{
+    height:100% ;
+    width: 100%;
+    position: relative;
+
+    background-image: url('https://i0.wp.com/www.wallpapersin4k.org/wp-content/uploads/2017/04/Full-HD-Car-Wallpapers-Download-23.jpg');
+    background-repeat: no-repeat;
+
+
+}
+.formDiv{
+    width: 20%;
+    position: absolute;
+    left:10% ;
+    top: 100px;
+    
+}
+.tableDiv{
+    width: 40%;
+    position: absolute;
+    left:50% ;
+    top: 100px;
+    background-color: white;
+    opacity:.5 ;
+
+}
